@@ -20,12 +20,10 @@
     }
 
     .container{
-        height: 80vh;
+        height: 100vh;
         overflow-y: scroll;
         margin-left: 10%;
-        margin-top: 4%;
-        
-      
+
     }
     .btn{
         width: 200px;

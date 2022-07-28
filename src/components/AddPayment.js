@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Dashboard from "./Dashboard";
 import "./AddPayment.css";
 import axios from "axios";
-import Select from "react-select";
 import { useParams } from "react-router-dom";
 
 const AddPayment = () => {
@@ -90,7 +89,7 @@ const changeOnClick = (e) => {
       <div className="container">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col-xl-9">
-            <div className="card" style={{ borderRadius: "15px" }}>
+            <div className="card" style={{ borderRadius: "15px", marginBottom:"70%" }}>
               <div className="card-body">
                 <form action="" method="post" onSubmit={changeOnClick}>
                   <div className="row align-items-center pt-2 pb-3">
